@@ -269,6 +269,10 @@ def funding_rate(self, symbol: str, **kwargs):
     return self.query("/dapi/v1/fundingRate", params)
 
 
+def funding_info(self):
+    return self.query("/dapi/v1/fundingInfo")
+
+
 def ticker_24hr_price_change(self, symbol: str = None, pair: str = None):
     """
     |

@@ -21,6 +21,7 @@ class UMFutures(API):
     from binance.um_futures.market import mark_price_klines
     from binance.um_futures.market import mark_price
     from binance.um_futures.market import funding_rate
+    from binance.um_futures.market import funding_info
     from binance.um_futures.market import ticker_24hr_price_change
     from binance.um_futures.market import ticker_price
     from binance.um_futures.market import book_ticker
